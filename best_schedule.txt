@@ -1,0 +1,12 @@
+SLA101A, Beach 201, Zeldin, 10 AM
+SLA101B, Roman 201, Banks, 12 PM
+SLA191A, Beach 301, Glen, 10 AM
+SLA191B, Roman 201, Zeldin, 3 PM
+SLA201, Loft 206, Shaw, 3 PM
+SLA291, Beach 201, Shaw, 11 AM
+SLA303, Loft 206, Zeldin, 1 PM
+SLA304, Roman 216, Tyler, 12 PM
+SLA394, Beach 201, Zeldin, 2 PM
+SLA449, Loft 310, Tyler, 3 PM
+SLA451, Loft 310, Shaw, 1 PM
+Fitness Score: 8.75
