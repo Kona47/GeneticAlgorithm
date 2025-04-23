@@ -348,7 +348,7 @@ void runEvolution(int generations, int popSize) {
         vector<double> fitnessScores = computeFitnessScores(population);
         double avgFitness = accumulate(fitnessScores.begin(), fitnessScores.end(), 0.0) / fitnessScores.size();
 
-        cout << "Generation " << gen << " | Avg Fitness: " << avgFitness << endl;
+        cout << "Gen" << gen << " | Avg Fitness: " << avgFitness << endl;
 
         if (gen == 100) prevAvgFitness = avgFitness;
         if (gen > 100 && avgFitness - prevAvgFitness < prevAvgFitness * 0.01) {
@@ -379,11 +379,8 @@ void runEvolution(int generations, int popSize) {
 }
 
 int main(){
-
     int generations = 200;
     int populationSize = 50;
-
     runEvolution(generations, populationSize);
-    
     return 0;
 }
